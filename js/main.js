@@ -1,23 +1,23 @@
 function play(str){
 
     if(str === "q" || str === 'Q'){
-        document.getElementById('display').innerHTML = " On snare";  
+        document.getElementById('display').innerText = " On snare";  
        } else if(str === "w" || str === 'W'){
-         document.getElementById('display').innerHTML = " On bass drum";
+         document.getElementById('display').innerText = " On bass drum";
        } else if(str === "e" || str === 'E'){
-         document.getElementById('display').innerHTML = " On percussion";
+         document.getElementById('display').innerText = " On percussion";
        } else if(str === "a" || str === 'A'){
-         document.getElementById('display').innerHTML = " On electrick";
+         document.getElementById('display').innerText = " On electrick";
        } else if(str === "s" || str === 'S'){
-         document.getElementById('display').innerHTML = " On bass";
+         document.getElementById('display').innerText = " On bass";
        } else if(str === "d" || str === 'D'){
-         document.getElementById('display').innerHTML = " On dry";
+         document.getElementById('display').innerText = " On dry";
        } else if(str === "z" || str === 'Z'){
-         document.getElementById('display').innerHTML = " On closed";
+         document.getElementById('display').innerText = " On closed";
        } else if(str === "x" || str === 'X'){
-         document.getElementById('display').innerHTML = " On side stick";
+         document.getElementById('display').innerText = " On side stick";
        } else if(str === "c" || str === 'C'){
-         document.getElementById('display').innerHTML = " On blc";
+         document.getElementById('display').innerText = " On blc";
      }
 
 

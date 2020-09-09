@@ -15,48 +15,58 @@
     <div class="container" id="drum-machine">
        <h1 class="text-center my-3">Drum Machine</h1>
        <div class="card my-3">
-          <div class="card-body">
-            <div class="text-center" id="display">Nothing is playing</div>
+          <div class="card-body bg-dark">
+            <div class="text-center text-white" id="display">Nothing is playing</div>
           </div>
        </div>
        
-       
-       <button class="drum-pad btn" id="drum-0" onclick="play('Q')">
+       <div class="row justify-content-md-center">
+       <button class="drum-pad btn col col-sm-2 bg-success mr-2 text-white" id="drum-0" onclick="play('Q')">
            Q
         <audio src="https://www.myinstants.com/media/sounds/snare.mp3" class="clip" id="Q"></audio>
        </button>
-       <button class="drum-pad btn" id="drum-1" onclick="play('W')">
+       <button class="drum-pad btn col col-sm-2 bg-success mr-2 text-white" id="drum-1" onclick="play('W')">
            W
         <audio src="https://www.myinstants.com/media/sounds/bass-drum.mp3" class="clip" id="W"></audio>
        </button>
-       <button class="drum-pad btn" id="drum-2" onclick="play('E')">
+       
+       <button class="drum-pad btn col col-sm-2 bg-success text-white " id="drum-2" onclick="play('E')">
            E
         <audio src="http://tipiwiki.free.fr/snd/Percussion(4e)2.wav" class="clip" id="E"></audio>
        </button>
-       <button class="drum-pad btn" id="drum-3"onclick="play('A')">
+
+       </div>
+       <div class="row justify-content-md-center my-3">
+
+       <button class="drum-pad btn col col-sm-2 bg-success mr-2 text-white" id="drum-3"onclick="play('A')">
            A
         <audio src="http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav" class="clip" id="A"></audio>
        </button>
-       <button class="drum-pad btn" id="drum-4" onclick="play('S')">
+       <button class="drum-pad btn col col-sm-2 bg-success mr-2 text-white" id="drum-4" onclick="play('S')">
            S
         <audio src="http://billor.chsh.chc.edu.tw/sound/bass4.wav" class="clip" id="S"></audio>
        </button>
-        <button class="drum-pad btn" id="drum-5" onclick="play('D')">
+        <button class="drum-pad btn col col-sm-2 bg-success text-white" id="drum-5" onclick="play('D')">
            D
         <audio src="https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3" class="clip" id="D"></audio>
         </button>
-        <button class="drum-pad btn" id="drum-6" onclick="play('Z')">
+
+        </div>
+        <div class="row justify-content-md-center my-3">
+
+        <button class="drum-pad btn col col-sm-2 bg-success mr-2 text-white" id="drum-6" onclick="play('Z')">
            Z
         <audio src="http://denhaku.com/r_box/tr707/closed.wav" class="clip" id="Z"></audio>
         </button>
-       <button class="drum-pad btn" id="drum-7" onclick="play('X')">
+       <button class="drum-pad btn col col-sm-2 bg-success mr-2 text-white" id="drum-7" onclick="play('X')">
            X
         <audio src="https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3" class="clip" id="X"></audio>
        </button>
-       <button class="drum-pad btn" id="drum-8" onclick="play('C')">
+       <button class="drum-pad btn col col-sm-2 bg-success text-white" id="drum-8" onclick="play('C')">
            C
         <audio src="https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3" class="clip" id="C"></audio>
        </button>
+       </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

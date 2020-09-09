@@ -9,45 +9,46 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Machine</title>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="container" id="drum-machine">
        <h1 class="text-center">Drum Machine</h1>
        <div id="display"></div>
        
-       <button class="drum-pad" id="drum-0">
+       <button class="drum-pad btn" id="drum-0" onclick="play('Q')">
            Q
         <audio src="https://www.myinstants.com/media/sounds/snare.mp3" class="clip" id="Q"></audio>
        </button>
-       <button class="drum-pad" id="drum-1">
+       <button class="drum-pad btn" id="drum-1" onclick="play('W')">
            W
         <audio src="https://www.myinstants.com/media/sounds/bass-drum.mp3" class="clip" id="W"></audio>
        </button>
-       <button class="drum-pad" id="drum-2">
+       <button class="drum-pad btn" id="drum-2" onclick="play('E')">
            E
         <audio src="http://tipiwiki.free.fr/snd/Percussion(4e)2.wav" class="clip" id="E"></audio>
        </button>
-       <button class="drum-pad" id="drum-3">
+       <button class="drum-pad btn" id="drum-3"onclick="play('A')">
            A
         <audio src="http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav" class="clip" id="A"></audio>
        </button>
-       <button class="drum-pad" id="drum-4">
+       <button class="drum-pad btn" id="drum-4" onclick="play('S')">
            S
         <audio src="http://billor.chsh.chc.edu.tw/sound/bass4.wav" class="clip" id="S"></audio>
        </button>
-        <button class="drum-pad" id="drum-5">
+        <button class="drum-pad btn" id="drum-5" onclick="play('D')">
            D
         <audio src="https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3" class="clip" id="D"></audio>
         </button>
-        <button class="drum-pad" id="drum-6">
+        <button class="drum-pad btn" id="drum-6" onclick="play('Z')">
            Z
-        <audio src=http://denhaku.com/r_box/tr707/closed.wav"" class="clip" id="Z"></audio>
+        <audio src="http://denhaku.com/r_box/tr707/closed.wav" class="clip" id="Z"></audio>
         </button>
-       <button class="drum-pad" id="drum-7">
+       <button class="drum-pad btn" id="drum-7" onclick="play('X')">
            X
         <audio src="https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3" class="clip" id="X"></audio>
        </button>
-       <button class="drum-pad" id="drum-8">
+       <button class="drum-pad btn" id="drum-8" onclick="play('C')">
            C
         <audio src="https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3" class="clip" id="C"></audio>
        </button>

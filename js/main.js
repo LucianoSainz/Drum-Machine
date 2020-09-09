@@ -13,11 +13,11 @@ function play(str){
        } else if(str === "d" || str === 'D'){
          document.getElementById('display').innerText = " On dry";
        } else if(str === "z" || str === 'Z'){
-         document.getElementById('display').innerText = " On closed";
+         document.getElementById('display').innerText = " On piano";
        } else if(str === "x" || str === 'X'){
          document.getElementById('display').innerText = " On side stick";
        } else if(str === "c" || str === 'C'){
-         document.getElementById('display').innerText = " On blc";
+         document.getElementById('display').innerText = " On drum cymbal";
      }
 
 
